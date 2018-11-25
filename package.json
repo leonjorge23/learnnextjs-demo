@@ -1,10 +1,12 @@
 {
-  "name": "hello-next",
+  "name": "next-demo",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next"
+    "dev": "next",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "next build"
   },
   "keywords": [],
   "author": "",
